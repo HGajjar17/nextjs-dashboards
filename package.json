@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "NEXT_DISABLE_ESLINT=true next build",
+    "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start"
   },
@@ -27,7 +27,6 @@
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
-    "eslint": "^9",
-    "eslint-config-next": "15.2.1"
+    "eslint": "^9"
   }
 }
